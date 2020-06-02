@@ -1,0 +1,108 @@
+.wrap{
+    width: 1920px;
+}
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+h1{
+    text-align: left;
+    font-family:Andale Mono;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    color: #000000;
+}
+h2{
+    font-family: '蘋方-繁';
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+h2 small{
+    text-align: left;
+    font-weight: normal;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #A00404;
+    margin-left: 16px;
+}
+.thr{
+    border-top:2px solid black;
+}
+hr{
+    border-top:1px solid black;
+}
+img{
+    width: 324px;
+    height: 324px;
+    margin :48px 0;
+}
+p.profile{
+    font-size:24px;
+    line-height:36px;
+    font-weight: PingFang TC;
+    color: #000000;
+}
+
+  .content .introduce__profile .text p:first-of-type {
+    margin-bottom: 24px;
+    
+}
+.education-list{
+    padding-left: 25px;
+    list-style:none;
+    padding:0;
+    margin:0;
+  }
+  
+  .education-list li{
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 32px;
+  }
+  
+  .education-list li::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: #96A9C4;
+  }
+  
+  .education-list li:last-child::before{
+    height: 0;
+  }
+  
+  .education-list li::after{
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: #96A9C4;
+  }
+  
+  .education-list li:first-child::after{
+    height: 0;
+  }
+  
+  .education-list li p{
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  .education-list li p::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 40%;
+    left: -8px;
+    border-radius: 50%;
+    background: #96A9C4;
+  }
